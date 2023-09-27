@@ -98,6 +98,8 @@ function App() {
           <Stage width={dimensions.width} height={dimensions.height}>
             <Layer>
               <Image
+                objectFit="cover"
+                objectPosition="center"
                 x={0}
                 y={0}
                 image={image}
